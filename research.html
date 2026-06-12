@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Research portfolio for Miguel Santos Pascual.">
+  <meta name="description" content="Research page for Miguel Santos Pascual, including preprints, theses, and talks.">
   <title>Miguel Santos Pascual | Research</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,8 +20,9 @@
 
         <div class="profile-block">
           <h1>Miguel Santos Pascual</h1>
-          <p class="profile-role">PhD Candidate in Mathematics</p>
-          <p class="profile-location">Institute of Mathematical Sciences (ICMAT-CSIC)</p>
+          <p class="profile-role">PhD Student at ICMAT</p>
+          <p class="profile-location">Mathematics and Physics Graduate, Master's in Statistics</p>
+          <a class="profile-contact" href="mailto:miguel.santos@icmat.es">miguel.santos@icmat.es</a>
         </div>
 
         <nav class="section-nav" aria-label="Section navigation">
@@ -71,29 +72,138 @@
         </div>
 
         <p class="lead">
-          This page gathers current research outputs and academic writing. The structure is now
-          simpler and more direct, with each item listed as a separate entry instead of stacking
-          multiple cards inside the page.
+          My research interests lie at the intersection of Bayesian statistics, probabilistic
+          modelling, preference learning, and reinforcement learning. This page gathers current
+          preprints, thesis work, and recent academic presentations.
         </p>
 
         <section class="page-section page-section--spaced">
-          <h3>Journal Publications</h3>
-          <p class="empty-state">No journal publications listed yet.</p>
+          <h3>Current Directions</h3>
+          <div class="direction-grid">
+            <article class="direction-card">
+              <p class="direction-card__meta">Statistical modelling</p>
+              <h4>Preference and ranking models</h4>
+              <p>
+                Work on route choice, ranking, and smart mobility platforms through
+                interpretable probabilistic models.
+              </p>
+            </article>
+            <article class="direction-card">
+              <p class="direction-card__meta">Machine learning</p>
+              <h4>Robust sequential decision-making</h4>
+              <p>
+                Ongoing research on adversarial observations in probabilistic state-space
+                models for robust reinforcement learning.
+              </p>
+            </article>
+            <article class="direction-card">
+              <p class="direction-card__meta">Applied Bayesian methods</p>
+              <h4>Predictive control for social robotics</h4>
+              <p>
+                Collaborative work on predictive control models for social robots in ASD
+                therapy settings.
+              </p>
+            </article>
+          </div>
         </section>
 
         <section class="page-section page-section--spaced">
-          <h3>arXiv Preprints</h3>
-          <p class="empty-state">No arXiv preprints listed yet.</p>
+          <h3>Preprints and Papers</h3>
+          <div class="entry-list">
+            <article class="entry">
+              <p class="entry__meta">Under revision</p>
+              <div class="entry__body">
+                <div class="entry__heading">
+                  <h4>A Two-Level Plackett-Luce Model for Preference Modeling in Smart Mobility Platforms</h4>
+                  <a class="resource-link" href="https://arxiv.org/pdf/2605.06236v1" target="_blank" rel="noreferrer" aria-label="Open arXiv preprint">
+                    <svg class="resource-link__icon" viewBox="0 0 24 24" aria-hidden="true">
+                      <path d="M10.5 13.5 19 5m0 0h-5.25M19 5v5.25" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/>
+                      <path d="M18.25 13.75v4.5a1.5 1.5 0 0 1-1.5 1.5h-11a1.5 1.5 0 0 1-1.5-1.5v-11a1.5 1.5 0 0 1 1.5-1.5h4.5" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/>
+                    </svg>
+                  </a>
+                </div>
+                <p>
+                  Under revision, with a preprint available on arXiv. The paper studies
+                  preference modelling for route choice through a two-level Plackett-Luce
+                  formulation.
+                </p>
+                <p class="abstract-label">Abstract</p>
+                <p class="abstract-text">
+                  The Plackett-Luce model is widely used to deal with probabilities in discrete
+                  choice settings. This paper introduces a novel two-level Plackett-Luce model
+                  combined with a multinomial logistic scheme that provides the basis for the
+                  route choice module in a smart mobility platform. For this, we develop
+                  Bayesian inference and prediction mechanisms to capture consumers'
+                  preferences for personalized route recommendations.
+                </p>
+                <p class="abstract-text">
+                  The model is empirically tested, allowing for refinements and discussion of
+                  its applicability. We also illustrate its practical relevance through several
+                  use cases, including relevant route selection, coordinated car pooling,
+                  incentive design and synthetic data generation.
+                </p>
+              </div>
+            </article>
+            <article class="entry">
+              <p class="entry__meta">Ongoing preprint</p>
+              <div class="entry__body">
+                <h4>Adversarial Observations in Probabilistic State-Space Models for Robust Reinforcement Learning</h4>
+                <p>
+                  Work in progress on robustness in sequential probabilistic models for
+                  reinforcement learning.
+                </p>
+                <p class="abstract-label">Abstract</p>
+                <p class="abstract-text">
+                  Decision-making under partial or adversarial observability requires accurate
+                  inference of the environment's latent state and its associated uncertainty.
+                  This work analyzes adversarial attacks on linear probabilistic state-space
+                  models, commonly integrated within reinforcement learning architectures,
+                  where the attacker alters observations under likelihood constraints that keep
+                  the perturbations consistent.
+                </p>
+                <p class="abstract-text">
+                  We study how such adversarial yet realistic observation shifts affect the
+                  latent state and influence policy decisions. This perspective provides a
+                  principled pathway toward building more robust reinforcement learning
+                  systems, with direct relevance to safety-critical domains such as robotics,
+                  where reliable operation under sensor noise, partial failures, and
+                  adversarial conditions is essential.
+                </p>
+              </div>
+            </article>
+          </div>
         </section>
 
         <section class="page-section page-section--spaced">
           <h3>Graduate Theses</h3>
           <div class="entry-list">
             <article class="entry">
+              <p class="entry__meta">Master's Thesis in Statistics for Data Science - 2025</p>
+              <div class="entry__body">
+                <h4>A two-level Plackett-Luce model for preference modelling in route choice with applications</h4>
+                <p>
+                  Master's thesis at Carlos III University of Madrid, presenting the work that
+                  later developed into the current preprint and publication pipeline.
+                </p>
+                <p class="abstract-label">Abstract</p>
+                <p class="abstract-text">
+                  This master's thesis introduces a two-level Plackett-Luce model combined
+                  with a multinomial logistic scheme for route choice in a smart mobility
+                  platform. The work develops Bayesian inference and prediction tools to
+                  capture user preferences and produce personalized route recommendations.
+                </p>
+                <p class="abstract-text">
+                  The framework is empirically tested and discussed through practical use
+                  cases, including relevant route selection, coordinated car pooling,
+                  incentive design, and synthetic data generation.
+                </p>
+              </div>
+            </article>
+            <article class="entry">
               <p class="entry__meta">BSc Thesis in Mathematics - 2024</p>
               <div class="entry__body">
                 <div class="entry__heading">
-                  <h4>Applications of Information Theory in Machine Learning</h4>
+                  <h4>Application of Information Theory in Supervised Learning</h4>
                   <a class="resource-link" href="https://uvadoc.uva.es/bitstream/handle/10324/71069/TFG-G6851.pdf?isAllowed=y&sequence=1" target="_blank" rel="noreferrer" aria-label="Open mathematics thesis PDF">
                     <svg class="resource-link__icon" viewBox="0 0 24 24" aria-hidden="true">
                       <path d="M10.5 13.5 19 5m0 0h-5.25M19 5v5.25" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/>
@@ -102,9 +212,21 @@
                   </a>
                 </div>
                 <p>
-                  Undergraduate thesis developed at the University of Valladolid exploring how
-                  information-theoretic ideas can be used to understand and motivate tools in
-                  modern machine learning.
+                  Final thesis at the University of Valladolid, graded 9.8/10 with Honors,
+                  exploring how information-theoretic ideas can inform supervised learning.
+                </p>
+                <p class="abstract-label">Abstract</p>
+                <p class="abstract-text">
+                  This thesis studies the problem of overfitting in machine learning and
+                  examines the Information Bottleneck as a way to address some of the
+                  contradictions raised by modern neural networks. The approach is grounded in
+                  Shannon's information theory and develops the mathematical tools needed to
+                  understand the model in depth.
+                </p>
+                <p class="abstract-text">
+                  The thesis also analyzes more concrete settings, such as the Gaussian case,
+                  and explores numerical and computational implementations to better understand
+                  these phenomena in high-dimensional supervised learning.
                 </p>
               </div>
             </article>
@@ -122,9 +244,22 @@
                   </a>
                 </div>
                 <p>
-                  Undergraduate physics thesis on variational quantum algorithms and their
-                  relationship with adiabatic quantum computation, combining foundational
-                  quantum ideas with algorithmic perspectives.
+                  Final thesis at the University of Valladolid, graded 9.4/10, on variational
+                  quantum algorithms and their relationship with adiabatic quantum computing.
+                </p>
+                <p class="abstract-label">Abstract</p>
+                <p class="abstract-text">
+                  This thesis focuses on the Quantum Approximate Optimization Algorithm
+                  (QAOA), a subtype of variational quantum algorithms connected with
+                  adiabatic quantum computing. It develops the theoretical foundations needed
+                  to understand how these algorithms optimize dichotomous functions through
+                  the slow time evolution of a quantum system.
+                </p>
+                <p class="abstract-text">
+                  The study is complemented by simulations of increasing complexity carried out
+                  on conventional computers, allowing for an assessment of the performance,
+                  advantages, and limitations of these methods when applied to real-world
+                  problems.
                 </p>
               </div>
             </article>
@@ -132,32 +267,92 @@
         </section>
 
         <section class="page-section page-section--spaced">
-          <h3>Conferences and Talks</h3>
+          <h3>Talks and Poster Presentations</h3>
           <div class="entry-list">
             <article class="entry">
-              <p class="entry__meta">5SYSORM Book of Abstracts - 2025</p>
+              <p class="entry__meta">June 28-July 3, 2026</p>
               <div class="entry__body">
                 <div class="entry__heading">
-                  <h4>A two-level Plackett-Luce model for preference modelling in route choice</h4>
-                  <a class="resource-link" href="https://www.imus.us.es/congresos/5SYSORM/pdf/BOA.pdf" target="_blank" rel="noreferrer" aria-label="Open conference abstract PDF">
-                    <svg class="resource-link__icon" viewBox="0 0 24 24" aria-hidden="true">
-                      <path d="M10.5 13.5 19 5m0 0h-5.25M19 5v5.25" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/>
-                      <path d="M18.25 13.75v4.5a1.5 1.5 0 0 1-1.5 1.5h-11a1.5 1.5 0 0 1-1.5-1.5v-11a1.5 1.5 0 0 1 1.5-1.5h4.5" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/>
-                    </svg>
-                  </a>
+                  <h4>ISBA 2026</h4>
+                  <div class="entry__actions">
+                    <a class="resource-link" href="https://isba2026.github.io/" target="_blank" rel="noreferrer" aria-label="Open ISBA 2026 website">
+                      <svg class="resource-link__icon" viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M10.5 13.5 19 5m0 0h-5.25M19 5v5.25" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/>
+                        <path d="M18.25 13.75v4.5a1.5 1.5 0 0 1-1.5 1.5h-11a1.5 1.5 0 0 1-1.5-1.5v-11a1.5 1.5 0 0 1 1.5-1.5h4.5" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/>
+                      </svg>
+                    </a>
+                  </div>
                 </div>
                 <p>
-                  This contribution studies a Bayesian preference model for route choice based
-                  on a two-level Plackett-Luce formulation, combining synthetic data
-                  generation, NUTS-based inference, and predictive analysis.
+                  Attendance and poster presentation: "A Bayesian predictive control model for
+                  a social robot for ASD Therapy", Nagoya, Japan.
+                </p>
+              </div>
+            </article>
+            <article class="entry">
+              <p class="entry__meta">June 4-5, 2026</p>
+              <div class="entry__body">
+                <div class="entry__heading">
+                  <h4>II International Workshop on Bayesian Statistics</h4>
+                  <div class="entry__actions">
+                    <a class="resource-link" href="https://www.cunef.edu/actualidad/seio-y-cunef-universidad-celebran-la-segunda-edicion-del-international-workshop-on-bayesian-statistics/" target="_blank" rel="noreferrer" aria-label="Open workshop news page">
+                      <svg class="resource-link__icon" viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M10.5 13.5 19 5m0 0h-5.25M19 5v5.25" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/>
+                        <path d="M18.25 13.75v4.5a1.5 1.5 0 0 1-1.5 1.5h-11a1.5 1.5 0 0 1-1.5-1.5v-11a1.5 1.5 0 0 1 1.5-1.5h4.5" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+                <p>Session presentation at CUNEF Universidad, Madrid, Spain.</p>
+              </div>
+            </article>
+            <article class="entry">
+              <p class="entry__meta">June 1-5, 2026</p>
+              <div class="entry__body">
+                <div class="entry__heading">
+                  <h4>ICRA 2026</h4>
+                  <div class="entry__actions">
+                    <a class="resource-link" href="https://2026.ieee-icra.org/" target="_blank" rel="noreferrer" aria-label="Open ICRA 2026 website">
+                      <svg class="resource-link__icon" viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M10.5 13.5 19 5m0 0h-5.25M19 5v5.25" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/>
+                        <path d="M18.25 13.75v4.5a1.5 1.5 0 0 1-1.5 1.5h-11a1.5 1.5 0 0 1-1.5-1.5v-11a1.5 1.5 0 0 1 1.5-1.5h4.5" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/>
+                      </svg>
+                    </a>
+                    <a class="resource-link" href="assets/documents/Poster_ICRA2026.pdf" target="_blank" rel="noreferrer" aria-label="Open ICRA 2026 poster PDF">
+                      <svg class="resource-link__icon" viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M7 3.75h7.7l4.55 4.55V20.25a1.5 1.5 0 0 1-1.5 1.5H7a1.5 1.5 0 0 1-1.5-1.5V5.25A1.5 1.5 0 0 1 7 3.75Zm7.25 1.8v3.5h3.5" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/>
+                        <path d="M8.75 11.25h6.5M8.75 14.75h6.5M8.75 18.25h4.25" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.7"/>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+                <p>
+                  Accepted poster: "A Bayesian predictive control model for a social robot for
+                  ASD Therapy", Vienna, Austria.
+                </p>
+              </div>
+            </article>
+            <article class="entry">
+              <p class="entry__meta">November 5-7, 2025</p>
+              <div class="entry__body">
+                <div class="entry__heading">
+                  <h4>SYSORM 2025</h4>
+                  <div class="entry__actions">
+                    <a class="resource-link" href="https://www.imus.us.es/congresos/5SYSORM/Welcome" target="_blank" rel="noreferrer" aria-label="Open SYSORM 2025 website">
+                      <svg class="resource-link__icon" viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M10.5 13.5 19 5m0 0h-5.25M19 5v5.25" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/>
+                        <path d="M18.25 13.75v4.5a1.5 1.5 0 0 1-1.5 1.5h-11a1.5 1.5 0 0 1-1.5-1.5v-11a1.5 1.5 0 0 1 1.5-1.5h4.5" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+                <p>
+                  Presentation and attendance at the 5th Spanish Young Statisticians and
+                  Operational Researchers Meeting, Seville, Spain.
                 </p>
               </div>
             </article>
           </div>
-          <p class="soft-note">
-            Future talks, posters, and seminars can be added here using the same cleaner list
-            format.
-          </p>
         </section>
       </article>
     </main>
